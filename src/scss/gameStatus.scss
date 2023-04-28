@@ -1,0 +1,56 @@
+.priceList {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 756px;
+  overflow-x: hidden;
+  justify-content: center;
+  position: relative;
+  z-index: 3;
+  .closeIcon {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    top: 16px;
+    right: 16px;
+    z-index: 4;
+  }
+}
+@media (max-width: 1920px) {
+  .priceList {
+    width: 378px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .priceList {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    height: 100vh;
+    &.active {
+      display: flex;
+    }
+    .closeIcon {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .priceList {
+    display: none;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    &.active {
+      display: flex;
+    }
+    .closeIcon {
+      display: block;
+    }
+  }
+}

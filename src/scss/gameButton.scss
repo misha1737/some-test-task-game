@@ -1,0 +1,39 @@
+.gameButton {
+  height: 128px;
+  border-radius: 12px;
+  width: 592px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $blue;
+  &:hover {
+    background: $text-600;
+  }
+
+  .gameButtonContent {
+    color: white;
+    font-family: $body-font-family;
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 1920px) {
+  .gameButton {
+    height: 64px;
+    width: 296px;
+    .gameButtonContent {
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width: 880px) {
+  .gameButton {
+    height: 64px;
+    width: 100%;
+    .gameButtonContent {
+      font-size: 14px;
+    }
+  }
+}

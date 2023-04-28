@@ -1,0 +1,74 @@
+.questionPrice {
+  height: 80px;
+  width: 756px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  margin-bottom: 8px;
+  &.active {
+    .questionPriceSvg {
+      path {
+        fill: $text-600;
+        stroke: $text-600;
+      }
+    }
+    .questionPriceContent {
+      color: white;
+    }
+  }
+  &.done {
+    .questionPriceSvg {
+      path {
+        stroke: $black-40;
+      }
+    }
+    .questionPriceContent {
+      color: $black-40;
+    }
+  }
+  .questionPriceContent {
+    position: relative;
+    z-index: 2;
+    font-family: $body-font-family;
+    font-size: 40px;
+    font-weight: 400;
+    color: $black-100;
+  }
+  .questionPriceSvg {
+    width: 752px;
+    height: 80px;
+    position: absolute;
+    path {
+      fill: white;
+      stroke: $black-40;
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .questionPrice {
+    height: 40px;
+    width: 378px;
+    margin-bottom: 8px;
+    .questionPriceContent {
+      font-size: 20px;
+    }
+    .questionPriceSvg {
+      width: 376px;
+      height: 40px;
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .questionPrice {
+    width: 440px;
+    .questionPriceSvg {
+      width: 440px;
+    }
+    .questionPriceContent {
+      font-size: 14px;
+    }
+  }
+}

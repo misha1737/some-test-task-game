@@ -1,0 +1,112 @@
+.answerButton {
+  height: 148px;
+  width: 842px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  margin-bottom: 32px;
+  &:hover {
+    .answerButtonSvg {
+      path {
+        stroke: $blue;
+      }
+    }
+  }
+  &.selected {
+    .answerButtonSvg {
+      path {
+        fill: $orange-5;
+        stroke: $orange-100;
+      }
+    }
+  }
+  &.correct {
+    .answerButtonSvg {
+      path {
+        fill: $green-5;
+        stroke: $green-100;
+      }
+    }
+  }
+  &.wrong {
+    .answerButtonSvg {
+      path {
+        fill: $red-5;
+        stroke: $red-100;
+      }
+    }
+  }
+  .letter {
+    font-family: $body-font-family;
+    font-size: 40px;
+    font-weight: 600;
+    color: $text-600;
+    margin-right: 16px;
+  }
+  .question {
+    font-family: $body-font-family;
+    font-size: 40px;
+    font-weight: 400;
+    color: $black-100;
+  }
+  .answerButtonContent {
+    position: relative;
+    z-index: 2;
+    padding: 98px;
+  }
+  .answerButtonSvg {
+    position: absolute;
+    width: 842px;
+    height: 148px;
+    path {
+      fill: white;
+      stroke: $black-40;
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .answerButton {
+    height: 72px;
+    width: 421px;
+
+    .letter {
+      font-size: 20px;
+      margin-right: 8px;
+    }
+    .question {
+      font-size: 20px;
+    }
+    .answerButtonContent {
+      padding: 49px;
+    }
+    .answerButtonSvg {
+      width: 421px;
+      height: 72px;
+    }
+  }
+}
+
+@media (max-width: 880px) {
+  .answerButton {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .answerButton {
+    margin-bottom: 0px;
+    .letter {
+      font-size: 14px;
+    }
+    .question {
+      font-family: $body-font-family;
+      font-size: 14px;
+    }
+    .answerButtonSvg {
+      width: 320px;
+    }
+  }
+}

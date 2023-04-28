@@ -1,0 +1,182 @@
+{
+  "questions": [
+    {
+      "money": "$500",
+      "questions":[{
+				"question":"What is the capital of France?",
+				"answers":{
+						"A":"Paris",
+						"B":"London",
+						"C":"Madrid",
+						"D":"Berlin"
+					},
+				"correctAnswers":["A"]
+				},
+				{
+					"question":"Who is the founder of SpaceX?",
+					"answers":{
+							"A":"Steve Jobs",
+							"B":"Jeff Bezos",
+							"C":"Bill Gates",
+							"D":"Elon Musk"
+						},
+					"correctAnswers":["D"]
+					}
+			]
+    },
+		{
+      "money": "$1,000",
+      "questions":[{
+				"question":"What is the largest planet in our solar system?",
+				"answers":{
+						"A":"Mars",
+						"B":"Jupiter",
+						"C":"Venus",
+						"D":"Saturn"
+					},
+				"correctAnswers":["B"]
+				}
+			]
+    },
+		{
+      "money": "$2,000",
+      "questions":[{
+				"question":"Who wrote the famous novel 'Pride and Prejudice'?",
+				"answers":{
+						"A":"Charles Dickens",
+						"B":"Jane Austen",
+						"C":"William Shakespeare",
+						"D":"Virginia Woolf"
+					},
+				"correctAnswers":["B"]
+				}
+			]
+    },
+		{
+      "money": "$4,000",
+      "questions":[{
+				"question":"In which city is the famous monument Taj Mahal located?",
+				"answers":{
+						"A":"Delhi",
+						"B":"Mumbai",
+						"C":"Agra",
+						"D":"Kolkata"
+					},
+				"correctAnswers":["C"]
+				}
+			]
+    },
+		{
+      "money": "$8,000",
+      "questions":[{
+				"question":"What is the currency of Japan?",
+				"answers":{
+						"A":"Yen",
+						"B":"Dollar",
+						"C":"Euro",
+						"D":"Pound"
+					},
+				"correctAnswers":["A"]
+				}
+			]
+    },
+		{
+      "money": "$16,000",
+      "questions":[{
+				"question":"What is the largest mammal on Earth?",
+				"answers":{
+						"A":"Elephant",
+						"B":"Blue whale",
+						"C":"Giraffe",
+						"D":"Hippopotamus"
+					},
+				"correctAnswers":["B"]
+				}
+			]
+    },
+		{
+      "money": "$32,000",
+      "questions":[{
+				"question":"What is the smallest country in the world by land area?",
+				"answers":{
+						"A":"Monaco",
+						"B":"San Marino",
+						"C":"Vatican City",
+						"D":"Liechtenstein"
+					},
+				"correctAnswers":["C"]
+				}
+			]
+    },
+		{
+      "money": "$64,000",
+      "questions":[{
+				"question":"Who painted the famous artwork 'The Starry Night'",
+				"answers":{
+						"A":"Vincent van Gogh",
+						"B":"Leonardo da Vinci",
+						"C":"Michelangelo",
+						"D":"Pablo Picasso"
+					},
+				"correctAnswers":["A"]
+				}
+			]
+    },
+		{
+      "money": "$125,000",
+      "questions":[{
+				"question":"What is the capital of Australia?",
+				"answers":{
+						"A":"Sydney",
+						"B":"Melbourne",
+						"C":"Brisbane",
+						"D":"Canberra"
+					},
+				"correctAnswers":["D"]
+				}
+			]
+    },
+		{
+      "money": "$250,000",
+      "questions":[{
+				"question":"Who is the current president of the United States?",
+				"answers":{
+						"A":"Joe Biden",
+						"B":"Barack Obama",
+						"C":"Donald Trump",
+						"D":"George W. Bush"
+					},
+				"correctAnswers":["A"]
+				}
+			]
+    },
+		{
+      "money": "$500,000",
+      "questions":[{
+				"question":"What is the highest mountain in Africa?",
+				"answers":{
+						"A":"Kilimanjaro",
+						"B":"Mount Everest",
+						"C":"Mount Kilimanjaro",
+						"D":"Mount Kenya"
+					},
+				"correctAnswers":["C"]
+				}
+			]
+    },
+		{
+      "money": "$1000,000",
+      "questions":[{
+				"question":"Who invented the telephone?",
+				"answers":{
+						"A":"Alexander Graham Bell",
+						"B":"Thomas Edison",
+						"C":"Nikola Tesla",
+						"D":"Benjamin Franklin"
+					},
+				"correctAnswers":["A"]
+				}
+			]
+    }
+  ]
+}

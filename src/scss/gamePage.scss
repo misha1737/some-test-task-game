@@ -1,0 +1,85 @@
+.gamePage {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  .gameBlock {
+    position: relative;
+    background: $backgroundInGame;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    align-items: center;
+    .hamburgerIcon {
+      position: absolute;
+      right: 16px;
+      top: 16px;
+      cursor: pointer;
+      display: none;
+    }
+    .gameQuestion {
+      width: 1688px;
+      font-family: $body-font-family;
+      font-size: 64px;
+      font-weight: 600;
+      color: $black-100;
+      margin-top: 266px;
+    }
+    .answerButtons {
+      width: 1688px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 244px;
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .gamePage {
+    .gameBlock {
+      .gameQuestion {
+        width: 844px;
+        font-size: 32px;
+        margin-top: 133px;
+      }
+      .answerButtons {
+        width: 844px;
+        margin-bottom: 122px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .gamePage {
+    .gameBlock {
+      .hamburgerIcon {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 880px) {
+  .gamePage {
+    .gameBlock {
+      .gameQuestion {
+        text-align: center;
+        width: 100%;
+      }
+      .answerButtons {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .gamePage {
+    .gameBlock {
+      .gameQuestion {
+        font-size: 18px;
+      }
+    }
+  }
+}
